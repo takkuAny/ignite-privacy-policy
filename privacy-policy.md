@@ -1,6 +1,6 @@
 # Privacy Policy for Ignite
 
-**Last updated: March 21, 2026**
+**Last updated: April 2, 2026**
 
 ## Overview
 
@@ -18,7 +18,11 @@ Ignite ("we", "our", or "the app") is an English learning app that helps you pra
 - The app uses your device's microphone to capture your spoken answers.
 - Audio is processed locally on your device using Apple's Speech Recognition framework (SFSpeechRecognizer).
 - **We do not store or transmit raw audio recordings.**
-- Transcribed text is sent to our AI service (Claude by Anthropic) for evaluation and is not retained after processing.
+- Transcribed text is sent to Anthropic's Claude API for answer evaluation and is not retained after processing.
+
+### 2a. Shared Content
+- Text content and URLs you share into the app are sent to Anthropic's Claude API to generate drill questions.
+- This content is not stored by Anthropic beyond the duration of the API request.
 
 ### 3. Usage Data
 - We track the number of question generations and evaluations per month to manage free-tier usage limits.
@@ -52,7 +56,7 @@ We use the following third-party services:
 
 - **Apple Sign In** — Authentication ([Apple Privacy Policy](https://www.apple.com/legal/privacy/))
 - **Supabase** — Database and backend ([Supabase Privacy Policy](https://supabase.com/privacy))
-- **Anthropic (Claude)** — AI question generation and answer evaluation ([Anthropic Privacy Policy](https://www.anthropic.com/privacy))
+- **Anthropic (Claude)** — AI question generation and answer evaluation. Text content you share and your transcribed spoken answers are sent to Anthropic's Claude API. **Anthropic may use submitted data to improve their AI models.** Anthropic's data practices provide equivalent data protection to this policy. See [Anthropic's Privacy Policy](https://www.anthropic.com/privacy).
 - **RevenueCat** — Subscription management ([RevenueCat Privacy Policy](https://www.revenuecat.com/privacy))
 - **Apple Speech Recognition** — Voice-to-text transcription ([Apple Privacy Policy](https://www.apple.com/legal/privacy/))
 
